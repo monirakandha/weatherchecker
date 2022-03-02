@@ -19,7 +19,6 @@ const displayTemperature = temperature => {
     const url = `http://openweathermap.org/img/wn/${temperature.weather[0].icon}@2x.png`;
     const imgIcon = document.getElementById('weather-icon');
     imgIcon.setAttribute('src', url);
-    console.log(temperature);
 
     
 }
